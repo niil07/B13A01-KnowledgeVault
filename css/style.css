@@ -298,3 +298,60 @@ nav .menu{
     color: #30B868;
 }
 
+/* Footer section css */
+footer{
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+}
+
+.f-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-right{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.f-right h6{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.f-links ul {
+    display: flex;
+    gap: 16px;
+}
+
+.f-links ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+}
+
+.f-bottom{
+    text-align: center;
+}
+
+hr{
+    height: 1px;
+    width: 85%;
+    background-color: #E5E7EB;
+    margin: 60px 0px 32px 0px;
+    opacity: 20%;
+}
+
+.f-bottom span{
+    color: #FAFAFA;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
